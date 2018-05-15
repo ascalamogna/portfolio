@@ -57,7 +57,9 @@ The screenshots below show the CiviCDR dashboard and ticket view.
 
 <img src='./ticket-1.png'/>
  
+
 ## Grouping Security Threats
+
 
 CiviCDR found that multiple tickets would sometimes stem from a single cyber attack. Rather than address each ticket individually, I created a system that grouped like tickets together and sent out mass notifications and assignments to users.
 
