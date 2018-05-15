@@ -1,0 +1,257 @@
+.inpage__header {
+  position: absolute;
+  top:0;
+  width: 100%;
+  z-index: 0;
+}
+
+.inpage__title {
+  font-family: $display-font-family;
+  font-weight: $base-font-regular;
+  font-size: 3rem;
+  margin-bottom: $global-spacing/4;
+  @include media(medium-up) {
+    font-size: 5rem;
+    line-height: 5rem;
+    margin-bottom: $global-spacing/2;    
+  }
+}
+
+.inpage-project__info {
+  padding: ($global-spacing * 4) 0 ($global-spacing) 0;
+}
+
+.light {
+  background-color: #272727;
+}
+
+.blog-post-container {
+  @extend .clearfix;
+}
+
+.project__challenge {
+  float: left;
+  width: 100%;
+  margin-right: 0;
+  @include media(medium-up) {
+    width: 63%;
+    margin-right: 8%;
+  }
+}
+
+.project__role {
+  float: left;
+  width: 100%;
+  @include media(medium-up) {
+    width: 25%;
+  }
+}
+
+.section__label {
+  text-transform: uppercase;
+  font-family: $base-font-family;
+  margin-bottom: $global-spacing/2;
+  font-size: 0.875rem;
+}
+
+.project__content {
+  float: left;
+  width: 80%;
+}
+
+.gatsby-resp-image-wrapper {
+  margin: $global-spacing * 4;
+}
+
+.gatsby-resp-image-image {
+  box-shadow: none;
+}
+
+.next-project {
+  @extend .clearfix;
+    a.next-project-container {
+    float: left;
+    padding: ($global-spacing * 4) 0;
+    width: 100%;
+    position: relative;
+    color:  $primary-color;
+    &:hover {
+      .project-container-span {
+        transform: scaleY(1);
+        transform-origin: 100% 0px 0px;
+      }
+    };
+  }
+  .next-label {
+    font-family: $base-font-family;
+    text-transform: uppercase;
+    margin-bottom: $global-spacing/2;
+    z-index: 5;
+    position: relative;
+    opacity: 0.65;
+    font-size: 0.875rem;
+  }
+  a {
+    text-decoration: none;
+  }
+  .facebook:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    height: 1px;
+    width: 85%;
+    background-color: rgba(255, 255, 255, 0.0);
+  }
+}
+
+.openaq {
+  .section__label, h3 , blockquote{
+    color: $openaq-color;
+    opacity: 1;
+  }
+  .project__challenge {
+    border-bottom: solid 1px $openaq-color;
+    border-top: none;
+    margin-bottom: $global-spacing * 2;
+    @include media(medium-up) {
+      border-right: solid 1px $openaq-color;
+      border-bottom: none;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.openaq-project__header {
+  background-color: $openaq-color;
+  padding: ($global-spacing * 8) 0 ($global-spacing * 6);
+  background-image: url(../graphics/project-headers/openaq.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 100%;
+  background-blend-mode: multiply;
+  @include media(medium-up) {
+    padding: ($global-spacing * 12) 0 ($global-spacing * 10);
+  }
+}
+
+.ifrc {
+  .section__label, h3 , blockquote{
+    color: $ifrc-color;
+    opacity: 1;
+  }
+  .project__challenge {
+    border-bottom: solid 1px $ifrc-color;
+    border-top: none;
+    margin-bottom: $global-spacing * 2;
+    @include media(medium-up) {
+      border-right: solid 1px $ifrc-color;
+      border-bottom: none;
+      margin-bottom: 0;
+    }
+  }
+}
+
+
+.ifrc-project__header {
+  background-color: $ifrc-color;
+  padding: ($global-spacing * 8) 0 ($global-spacing * 6);
+  background-image: url(../graphics/project-headers/ifrc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 45%;
+  background-blend-mode: multiply;
+  @include media(medium-up) {
+    padding: ($global-spacing * 12) 0 ($global-spacing * 10);
+  }
+}
+
+.civicdr {
+  .section__label, h3 , blockquote{
+    color: $civicdr-color;
+    opacity: 1;
+  }
+  .project__challenge {
+    border-bottom: solid 1px $civicdr-color;
+    border-top: none;
+    margin-bottom: $global-spacing * 2;
+    @include media(medium-up) {
+      border-right: solid 1px $civicdr-color;
+      border-bottom: none;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.civicdr-project__header {
+  background-color: $civicdr-color;
+  padding: ($global-spacing * 8) 0 ($global-spacing * 6);
+  background-image: url(../graphics/project-headers/civicdr.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 45%;
+  background-blend-mode: multiply;
+  @include media(medium-up) {
+    padding: ($global-spacing * 12) 0 ($global-spacing * 10);
+  }
+}
+
+.greenhouse {
+  .section__label, h3 , blockquote{
+    color: $greenhouse-color;
+    opacity: 1;
+  }
+  .project__challenge {
+    border-bottom: solid 1px $greenhouse-color;
+    border-top: none;
+    margin-bottom: $global-spacing * 2;
+    @include media(medium-up) {
+      border-right: solid 1px $greenhouse-color;
+      border-bottom: none;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.greenhouse-project__header {
+  background-color: $greenhouse-color;
+  padding: ($global-spacing * 8) 0 ($global-spacing * 6);
+  background-image: url(../graphics/project-headers/greenhouse.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 45%;
+  background-blend-mode: multiply;
+  @include media(medium-up) {
+    padding: ($global-spacing * 12) 0 ($global-spacing * 10);
+  }
+}
+
+.facebook {
+  .section__label, h3 , blockquote{
+    color: $facebook-color;
+    opacity: 1;
+  }
+  .project__challenge {
+    border-bottom: solid 1px $facebook-color;
+    border-top: none;
+    margin-bottom: $global-spacing * 2;
+    @include media(medium-up) {
+      border-right: solid 1px $facebook-color;
+      border-bottom: none;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.facebook-project__header {
+  background-color: $facebook-color;
+  padding: ($global-spacing * 8) 0 ($global-spacing * 6);
+  background-image: url(../graphics/project-headers/facebook.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 45%;
+  background-blend-mode: multiply;
+  @include media(medium-up) {
+    padding: ($global-spacing * 12) 0 ($global-spacing * 10);
+  }
+}

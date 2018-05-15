@@ -1,0 +1,43 @@
+.about-prose {
+  float: left;
+  width: 100%;
+  margin-left: 0;
+	h1 {
+		font-size: 3rem;
+    margin-bottom: $global-spacing;
+	}
+  h2 {
+    font-size: 2rem;
+  }
+	p {
+		opacity: 0.65;
+    margin-bottom: $global-spacing * 1.5;
+    line-height: 1.25rem;
+	  font-family: $base-font-family;
+	}
+  a {
+    font-size: 1rem;
+  }
+  @include media(medium-up) {
+    width: 55%;
+    margin-left: 3%;
+  }
+}
+
+.about-image {
+  float: left;
+  width: 100%;
+  background-image: url(../graphics/about.jpg);
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: $global-spacing;
+  margin-top: $global-spacing;
+  @include media(medium-up) {
+    margin-top: 0;
+    width: 40%;
+    margin-bottom: 0;
+  }
+}
+
+

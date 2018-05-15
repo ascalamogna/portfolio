@@ -1,0 +1,117 @@
+.prose {
+
+  font-family: $base-font-family;
+
+  p {
+    font-family: $base-font-family;
+    opacity: 0.65;
+    margin-bottom: $global-spacing * 1.5;
+    line-height: 1.25rem;
+    width: 100%;
+    a {
+      color: #FFF;
+      opacity: 1;
+      font-size: 1.25rem;
+      font-weight: 400;
+      background-image: linear-gradient(180deg, transparent 65%, rgba(#FFF, 0.3) 0);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      text-decoration: none;
+      transition: background-size .4s ease;
+      &:hover {
+        opacity: 1;
+        background-size: 100% 140%;
+      };  
+    }
+    @include media(medium-up) {
+      width: 75%;
+    }
+  }
+
+  h3 {
+    @extend .section__label;
+  }
+
+  h2 {
+    font-family: $base-font-family;
+    font-weight: $base-font-bold;
+    font-size: 1.5rem;
+    margin-bottom: $global-spacing;
+    width: 100%;
+    @include media(medium-up) {
+      width: 75%;
+      font-size: 2rem;
+      margin-bottom: $global-spacing * 1.5;
+    }
+  }
+
+  h4 {
+    font-family: $base-font-family;
+    font-weight: $base-font-regular;
+    font-size: 1rem;
+    margin-bottom: $global-spacing/2;
+    @include media(medium-up) {
+      font-size: 1.15rem;
+      margin-bottom: $global-spacing;
+    }
+  }
+
+  ul {
+    margin: ($global-spacing * 1);
+  }
+
+  li {
+    opacity: 0.65%;
+    margin-bottom: $global-spacing/2;
+    list-style-type: circle;
+    margin-left: $global-spacing * 2;
+    opacity: 0.65;
+  }
+
+  blockquote {
+    margin: ($global-spacing * 4) 0;
+    p {
+      width: 100%;
+      font-size: 1.5rem;
+      line-height: 2rem;
+      opacity: 1;
+      @include media(medium-up) {
+        width: 80%;
+        opacity: 1;
+        font-size: 2rem;
+        line-height: 2.5rem;       
+      }
+    }
+  }
+
+	.project__challenge {
+    p {
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+      @include media(medium-up) {
+        font-size: 1.75rem;
+        line-height: 2.25rem;        
+      }
+    }
+  }
+
+  section.light {
+    background-color: #272727;
+  }
+
+  section {
+    width: 100%;
+    padding: ($global-spacing * 5) 0;
+    background-color: $base-color;
+    &:last-child {
+      padding-bottom: $global-spacing * 2;
+    };
+    .section__prose {
+      width: 100%;
+      @include media(medium-up) {
+        width: 80%;
+      }
+    }
+  }
+
+}

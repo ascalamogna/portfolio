@@ -1,0 +1,220 @@
+.index-header {
+  margin: ($global-spacing * 3) 0;
+  margin-bottom: 8rem;
+  width: 100%;
+  @include media(medium-up) {
+    width: 80%;
+  }
+}
+
+.index-body {
+  @extend .clearfix;
+  margin-bottom: $global-spacing * 8;
+}
+
+.header-title {
+	font-family: $display-font-family;
+  font-weight: $base-font-regular;
+  font-size: 4.75rem;
+  line-height: 4rem; 
+  margin-bottom: 1rem;
+  @include media(medium-up) {
+    font-size: 6rem;
+  }
+}
+
+h2.header-description {
+  font-family: $base-font-family;
+  font-weight: $base-font-light;
+  font-size: 2rem;
+  color: rgba($primary-color, 0.65);
+  .highlight {
+    color: rgba($primary-color, 1);
+    font-weight: $base-font-bold;
+  }
+  @include media(medium-up) {
+    font-size: 2.75rem;
+  }
+}
+
+.projects-list__container {
+  h3 {
+    font-family: $base-font-family;
+    font-weight: $base-font-light;
+    font-size: 1.25rem;
+    margin-left: 15%;
+    position: relative;
+    margin-bottom: $global-spacing;
+  }
+}
+
+a.project-container {
+  float: left;
+  padding: ($global-spacing * 4) 0;
+  width: 100%;
+  position: relative;
+  color:  $primary-color;
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background-color: rgba($primary-color, 0.65);
+  };
+  @include media(medium-up) {
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 15%;
+      height: 1px;
+      width: 85%;
+      background-color: rgba($primary-color, 0.65);
+    }; 
+  }
+  &:hover {
+    .project-container-span {
+      transform: scaleY(1);
+      transform-origin: 100% 0px 0px;
+    }
+  };
+}
+
+.facebook {
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background-color: rgba($primary-color, 0.65);
+  };;
+  @include media(medium-up) {
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 15%;
+      height: 1px;
+      width: 85%;
+      background-color: rgba($primary-color, 0.65);
+    }; 
+  }
+}
+
+.inner-project-container {
+  float: left;
+  margin-left: 0;
+  @include media(medium-up) {
+    margin-left: 15%;
+  }
+}
+
+.project-title {
+  font-family: $display-font-family;
+  font-weight: $base-font-regular;
+  font-size: 3rem;
+  margin-bottom: $global-spacing/4;
+  @include media(medium-up) {
+    font-size: 3.25rem;
+  }
+  @include media(small-down) {
+    font-size: 2.75rem;
+    line-height: 3rem;
+  }
+}
+ 
+.project-description {
+  font-size: 0.875rem;
+  font-family: raleway, serif;
+  opacity: 0.65;
+}
+
+.project-container-span {
+  transition: transform 0.7s cubic-bezier(0.57, 0.61, 0, 1) 0s;
+  bottom: 0;
+  height: 100%;
+  position: absolute;
+  transform: scaleY(0);
+  transform-origin: 0px 100% 0px;
+  width: 100%;
+}
+
+.project-container:hover {
+  color: #FFF;
+}
+
+.project-title-container {
+  float: left;
+  position: relative;
+  @include media(medium-down) {
+    width: 100%;
+    margin-top: 0.25rem;
+  }
+}
+
+.project-number-container {
+  float: left;
+  margin-top: $global-spacing;
+}
+
+.project-number {
+  font-family: $base-font-family;
+  font-size: 1.75rem;
+  line-height: 2rem;
+  position: relative;
+  margin-right: 1rem;
+  padding-right: 3.75rem;
+  &:after {
+    content:'';
+    position: absolute;
+    right: 0;
+    top: 1rem;
+    width: 3rem;
+    height: 1px;
+    background-color: $primary-color;
+  };
+}
+
+.openaq .project-container-span {
+  background-color: #5890FF;
+}
+
+.ifrc .project-container-span {
+  background-color: #E70D3C;
+}
+
+.civicdr .project-container-span {
+  background-color: #FFD100;
+}
+
+.greenhouse .project-container-span {
+  background-color: #6CDE67;
+}
+
+.facebook .project-container-span {
+  background-color: #EB9811;
+}
+
+.index-footer {
+  margin-bottom: $global-spacing * 6;
+  h1 {
+    font-size: 2.75rem;
+    font-weight: $base-font-regular;
+  }
+  ul {
+    margin: $global-spacing 0;
+    li {
+      font-family: $base-font-family;
+      display: inline-block;
+      margin-right: $global-spacing;
+      font-size: 1.25rem;
+      opacity: 0.75;
+    }
+  }
+}
+
+

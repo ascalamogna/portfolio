@@ -1,0 +1,40 @@
+@import url("https://use.typekit.net/vsk6osy.css");
+
+$base-color: #202020;
+$primary-color: #FFFFFF;    
+
+$openaq-color: #5890FF;
+$ifrc-color: #E70D3C;
+$civicdr-color: #FFD100;
+$greenhouse-color: #79DA74;
+$facebook-color: #EB9811;
+$global-spacing: 1rem;      
+
+$base-font-family: "raleway",sans-serif;
+$display-font-family: 'acta', serif;
+
+
+$base-font-style: normal;
+$base-font-light: 200;
+$base-font-regular: 400;
+$base-font-bold: 700;
+$base-font-weight: $base-font-regular;
+$base-font-size: 1rem;
+$base-line-height: 1.5rem;
+
+/* Rows */
+
+$row-min-width: 320px;
+$row-max-width: 1280px;
+
+/* Media queries */
+$xsmall-range: (0, 543px);
+$small-range: (543px, 799px);
+$medium-lower: 800px;
+$medium-range: (800px, 991px);
+$large-range: (992px, 1199px);
+$xlarge-range: (1200px);
+$xxlarge-range: (1400px);
+
+$screen: "only screen"                         
+

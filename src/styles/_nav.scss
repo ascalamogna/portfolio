@@ -1,0 +1,33 @@
+.prime-header {
+  padding: ($global-spacing * 2) 0;
+  font-family: $base-font-family;
+  position: relative;
+  z-index: 1;
+  h1 {
+    float: left;
+    font-size: 1rem;
+    font-weight: $base-font-light;
+  }
+}
+
+.prime-nav {
+	float: right;
+  a {
+    color: #FFF;
+    text-decoration: none;
+    &:hover {
+      opacity: 0.65;
+    };
+    &:visited {
+      color: #FFF;
+    };
+  }
+}
+
+.prime-item {
+	display: inline-block;
+	list-style: none;
+  font-size: 1rem;
+  font-weight: $base-font-light;
+  margin-right: $global-spacing;
+}
