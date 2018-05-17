@@ -16,7 +16,7 @@ const About = () => (
         </div>
         <div className='about-prose'>
         <p>Hi! I'm Anna. I'm a designer living in Washington, D.C.</p>
-        <p>I originally came to the District almost 10 years ago from Clearwater, Fla. I was hoping to become an environmental reporter but quickly feel in love with design while studying at American University. I earned degrees in both journalism and graphic design. My backgrounds in both influence how I approach design challenges today.</p>
+        <p>I originally came to the District almost 10 years ago from Clearwater, Fla. I was hoping to become an environmental reporter but quickly fell in love with design while studying at American University. I earned degrees in journalism and graphic design. My backgrounds in both influence how I approach design challenges today.</p>
         <p>I believe research is the foundation to all good design. I’m interested in solving problems that lead to meaningful products and tools.</p>
         <p>I currently do everything from user research to front-end development at <a className='link--primary' href='https://developmentseed.org/'>Development Seed. </a>Before this, I spent my days at National Geographic working on digital platforms. </p>
         <p>I enjoy good stories, old maps and large cups of tea.</p>
