@@ -5,7 +5,7 @@ title: "Mapping Egypt"
 link: http://mapegypt.org/
 class: egypt-project__header
 color: egypt
-challenge: Design a multilingual interface to track agricultural projects across Egypt and and a scalable design system that can allow the platform to be replicated in different countries. 
+challenge: Design a multilingual interface to track agricultural projects across Egypt and a scalable design system that can allow the platform to be replicated in different countries. 
 role: Visual Design, HTML/CSS
 partner: IFPRI Egypt
 nextpath: "/openaq"
