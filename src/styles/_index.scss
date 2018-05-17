@@ -1,7 +1,19 @@
+
+.index-header__container {
+  background-image: linear-gradient(180deg, #9A52B8 0%, $openaq-color 100%);
+  float: left;
+}
+
 .index-header {
-  margin: ($global-spacing * 3) 0;
-  margin-bottom: 8rem;
+  background-image: linear-gradient(180deg, #9A52B8 0%, $openaq-color 100%);
+  background-color: $base-color;
+  margin: ($global-spacing/2);
+  padding: 0 0 ($global-spacing * 8) 0;
+}
+
+.index-header__content {
   width: 100%;
+  padding-top: $global-spacing * 7;
   @include media(medium-up) {
     width: 80%;
   }
@@ -9,7 +21,6 @@
 
 .index-body {
   @extend .clearfix;
-  margin-bottom: $global-spacing * 8;
 }
 
 .header-title {
@@ -80,6 +91,18 @@ a.project-container {
       transform-origin: 100% 0px 0px;
     }
   };
+}
+
+a.project-container.openaq {
+  &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 15%;
+      height: 1px;
+      width: 85%;
+      background-color: rgba($primary-color, 0.0);
+    };  
 }
 
 .facebook {
@@ -162,21 +185,18 @@ a.project-container {
 }
 
 .project-number {
-  font-family: $base-font-family;
-  font-size: 1.75rem;
+  font-size: 5rem;
   line-height: 2rem;
   position: relative;
-  margin-right: 1rem;
-  padding-right: 3.75rem;
-  &:after {
-    content:'';
-    position: absolute;
-    right: 0;
-    top: 1rem;
-    width: 3rem;
-    height: 1px;
-    background-color: $primary-color;
-  };
+  margin-right: 0rem;
+  padding-right: 2rem;
+  opacity: 0.30;
+  margin-bottom: $global-spacing * 1.5;
+  @include media(medium-up) {
+    font-size: 5rem;
+    line-height: 2rem;
+    margin-bottom: 0
+  }
 }
 
 .openaq .project-container-span {
@@ -199,8 +219,27 @@ a.project-container {
   background-color: #EB9811;
 }
 
+.egypt .project-container-span {
+  background-color: #AC09FF;
+}
+
+.index-footer__container {
+background-image: linear-gradient(180deg, #AC09FF 0%, #DF70BE 100%);
+float: left;
+width: 100%;
+}
+
+.index-footer__content {
+  background-color: $base-color;
+  padding-top: $global-spacing * 8;
+  padding-bottom: $global-spacing * 6;
+  margin: $global-spacing/2;
+    background-image: linear-gradient(180deg, #AC09FF 0%, #DF70BE 100%);
+}
+
 .index-footer {
-  margin-bottom: $global-spacing * 6;
+  float: left;
+  width: 100%;
   h1 {
     font-size: 2.75rem;
     font-weight: $base-font-regular;

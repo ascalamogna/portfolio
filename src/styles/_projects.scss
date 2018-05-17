@@ -94,15 +94,6 @@
   a {
     text-decoration: none;
   }
-  .facebook:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 15%;
-    height: 1px;
-    width: 85%;
-    background-color: rgba(255, 255, 255, 0.0);
-  }
 }
 
 .openaq {
@@ -123,13 +114,11 @@
 }
 
 .openaq-project__header {
-  background-color: $openaq-color;
   padding: ($global-spacing * 8) 0 ($global-spacing * 6);
   background-image: url(../graphics/project-headers/openaq.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 100%;
-  background-blend-mode: multiply;
   @include media(medium-up) {
     padding: ($global-spacing * 12) 0 ($global-spacing * 10);
   }
@@ -154,13 +143,11 @@
 
 
 .ifrc-project__header {
-  background-color: $ifrc-color;
   padding: ($global-spacing * 8) 0 ($global-spacing * 6);
   background-image: url(../graphics/project-headers/ifrc.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100% 45%;
-  background-blend-mode: multiply;
   @include media(medium-up) {
     padding: ($global-spacing * 12) 0 ($global-spacing * 10);
   }
@@ -184,13 +171,11 @@
 }
 
 .civicdr-project__header {
-  background-color: $civicdr-color;
   padding: ($global-spacing * 8) 0 ($global-spacing * 6);
   background-image: url(../graphics/project-headers/civicdr.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100% 45%;
-  background-blend-mode: multiply;
   @include media(medium-up) {
     padding: ($global-spacing * 12) 0 ($global-spacing * 10);
   }
@@ -214,13 +199,11 @@
 }
 
 .greenhouse-project__header {
-  background-color: $greenhouse-color;
   padding: ($global-spacing * 8) 0 ($global-spacing * 6);
   background-image: url(../graphics/project-headers/greenhouse.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100% 45%;
-  background-blend-mode: multiply;
   @include media(medium-up) {
     padding: ($global-spacing * 12) 0 ($global-spacing * 10);
   }
@@ -244,13 +227,39 @@
 }
 
 .facebook-project__header {
-  background-color: $facebook-color;
   padding: ($global-spacing * 8) 0 ($global-spacing * 6);
   background-image: url(../graphics/project-headers/facebook.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100% 45%;
-  background-blend-mode: multiply;
+  @include media(medium-up) {
+    padding: ($global-spacing * 12) 0 ($global-spacing * 10);
+  }
+}
+
+.egypt {
+  .section__label, h3 , blockquote{
+    color: $egypt-color;
+    opacity: 1;
+  }
+  .project__challenge {
+    border-bottom: solid 1px $egypt-color;
+    border-top: none;
+    margin-bottom: $global-spacing * 2;
+    @include media(medium-up) {
+      border-right: solid 1px $egypt-color;
+      border-bottom: none;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.egypt-project__header {
+  padding: ($global-spacing * 8) 0 ($global-spacing * 6);
+  background-image: url(../graphics/project-headers/egypt.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 45%;
   @include media(medium-up) {
     padding: ($global-spacing * 12) 0 ($global-spacing * 10);
   }

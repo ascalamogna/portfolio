@@ -2,7 +2,7 @@
 path: "/openaq"
 date: "2017-07-12T17:12:33.962Z"
 title: "Fighting Air Inequality"
-link: "www.openaq.org"
+link: "https://www.openaq.org"
 class: openaq-project__header
 color: openaq
 challenge: Transform an expanding nonprofit’s barebones site into a usable, scalable database of air quality measurements and make it a valuable resource to its community.

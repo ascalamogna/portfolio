@@ -1,6 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import Link from 'gatsby-link'
+import Header from '../components/header'
 
 
 export default function Template({
@@ -9,6 +10,9 @@ export default function Template({
   const { markdownRemark: post } = data;
   return (
     <div className="blog-post-container">
+      <div className='inner'>
+        <Header/>
+      </div>
       <Helmet title={`${post.frontmatter.title}`} />
       <div className='inpage__header'>
         <div className={post.frontmatter.class}>

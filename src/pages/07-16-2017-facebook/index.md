@@ -7,10 +7,10 @@ color: facebook
 challenge: Design a platform that provides a narrative showing that Facebook’s "Safety Check" data is actionable and empowering for first responders and humanitarian organizations.
 role: UX Design, Visual Design, HTML/CSS
 partner: Facebook
-nextpath: "/openaq"
-nextcolor: openaq
-nexttitle: "Fighting Air Inequality"
-nextindex: 01
+nextpath: "/mapping-egypt"
+nextcolor: egypt
+nexttitle: "Mapping Egypt"
+nextindex: 05
 ---
 
 <section class='light'>
