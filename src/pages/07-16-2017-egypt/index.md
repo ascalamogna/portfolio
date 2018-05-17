@@ -31,7 +31,7 @@ I was responsible for the visual design and HTML/CSS for this platform.
 <div class='inner'>
 <div class='section__prose'>
 
-### VISUAL RESERACH 
+### VISUAL RESEARCH
 
 ## Exploring Visual Design Inspiration
 
