@@ -5,7 +5,7 @@ title: "Mapping Egypt"
 link: http://mapegypt.org/
 class: egypt-project__header
 color: egypt
-challenge: Design a multilingual interface to track agricultural projects across Egypt and a scalable design system that can allow the platform to be replicated in different countries. 
+challenge: Design a multilingual interface to track agricultural projects across Egypt and a scalable design system that allows the platform to be replicated in different countries.
 role: Visual Design, HTML/CSS
 partner: IFPRI Egypt
 nextpath: "/openaq"
@@ -20,9 +20,9 @@ nextindex: 01
 
 ### BACKGROUND
 
-The International Food Policy Research Institute (IFPRI) approached Development Seed to build a platform that would allow them to track the progress of agricultural projects all over Egypt. The platform needed to be displayed in two languages, English and Arabic, a right to left language. IFPRI also hoped to eventually expand this platform to create country specific versions. 
+The International Food Policy Research Institute (IFPRI) approached Development Seed to build a platform that would allow them to track the progress of agricultural projects all over Egypt. The platform needed to be displayed in two languages, English and Arabic. IFPRI also hoped to eventually expand this platform to create country-specific versions.
 
-I was responsible for the visual design and HTML/CSS for this platform. 
+I was responsible for the visual design and HTML/CSS for this platform.
 
 </div>
 </section>
@@ -35,7 +35,7 @@ I was responsible for the visual design and HTML/CSS for this platform.
 
 ## Exploring Visual Design Inspiration
 
-The client wanted a platform that felt friendly, impactful, inviting and professions. To start my visual design process, I created two mood boards to provide visual interpretations of these adjectives.
+The client wanted a platform that felt friendly, impactful, inviting, and professional. To start my visual design process, I created two mood boards to provide visual interpretations of these adjectives.
 
 <img src='./egypt-moodboards.png'> 
 
@@ -75,7 +75,7 @@ Based on the homepage comp the client felt best represented their organization, 
 
 ## Creating Stylesheets for Multiple Languages
 
-During the development phase, I created an additional stylesheet that allowed the whole website to be read from right to left and still look visually appealing and organized. Arabic websites not only feature text that reads right to left but are also visually designed around this as seen in the image below. 
+During the development phase, I created an additional stylesheet that allowed the whole website to be read from right to left and still look visually appealing and organized. Arabic websites not only feature text that reads right to left but are also visually designed around this, as seen in the image below.
 
 <img src='./egypt-rtl.png'>
 
