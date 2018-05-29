@@ -105,7 +105,7 @@ For example, 80% of users had difficulty figuring out how to download data after
 #### Responding to Concerns
 I responded to these concerns in the final product by displaying data sources in a more intuitive way, utilizing visual design and hierarchy, restructuring the navigation and providing more visualizations to users, including a new compare feature.  I also suggested highlighting their newsletter, as it was their most successful communication tool. 
 
-> Before the redesign, OpenAQ's site dispalyed less than 1 million measurements. Currently, site gives access to over 200 million measurements.
+> Before the redesign, OpenAQ's site displayed less than 1 million measurements. Currently, the site gives access to over 200 million measurements.
 
 > Over 20 community projects using OpenAQ's data are being tracked on the community page.
 
