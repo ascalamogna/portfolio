@@ -79,9 +79,9 @@ During the development phase, I created an additional stylesheet that allowed th
 
 <img src='./egypt-rtl.png'>
 
-<img src='./egypt-hp-final.jpg'>
+<img src='./egypt-homepage.png'>
 
-<img src='./egypt-project-pg.jpg'>
+<img src='./egypt-project-final.png'>
 
 </div>
 </div>
