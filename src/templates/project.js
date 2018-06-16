@@ -35,7 +35,7 @@ export default function Template({
                    <p>{post.frontmatter.challenge}</p>
                  </aside>
                  <aside className='project__role'>
-                   <h3 className='section__label'> Parnter</h3>
+                   <h3 className='section__label'> Partner</h3>
                    <p>{post.frontmatter.partner}</p>
                    <h3 className='section__label'> My Role</h3>
                    <p>{post.frontmatter.role}</p>
